@@ -1,0 +1,14 @@
+ name: CommandItem
+ version: 1.0.1
+ description: Allows you to bind commands to items
+ author: firecombat4
+ load: POSTWORLD
+ main: com.hotmail.steven.main.CommandItem
+ database: false
+ 
+ commands:
+   commanditem:
+     description: Base commanditem command
+     aliases: [citem]
+     permission: commanditem.any
+     usage: /addcommand <name> <command>
